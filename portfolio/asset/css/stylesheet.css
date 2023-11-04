@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.all{
+    background-color: grey;
+}
+/*navbar*/
+.navbar-nav {
+    font-size: 18px;
+}
+.hov{
+    font-family: sans-serif;
+}
+.hov:hover{
+    /* color: #aa07b6; */
+    font-style: italic;
+}
+/* hero */
+.hero1{
+    color: #371B58;
+}
+/* about */
+.brdr {
+    width: auto;
+    border-color: white;
+    border-radius: 10px;
+}
+.abt1:hover{
+    font-family: monospace;
+}
+.abt2{
+    border: 5px sloid black;
+}
+.abt2:hover{
+    background-color: #371B58;
+}
+/* skill */
+.skill1{
+    border-bottom: 5px solid black;
+    width: 80%;
+}
+/*button*/
+.btn:hover {
+    color: white;
+}
+
+/*progress bar*/
+.progress {
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.progress:hover{
+    transform: scale(1.1);
+}
+/*card*/
+.card{
+    transform: all 0.5s ease;
+}
+.card img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 10px black ;
+}
+
